@@ -17,5 +17,12 @@ console.log('Max number from an array: ',maxNumber)
 
 
 ```javascript
+// first way of getting min 
+var minNumber = Math.min(...myArray);
+console.log('Min number from an array: ',minNumber);
+```
+
+
+```javascript
 
 ```
