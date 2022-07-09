@@ -21,9 +21,17 @@ const maxFunction = (array) => {
 console.log('Using reduce method Max number from an array: ', maxFunction(arrNumber));
 
 
+// third way of getting max
+const arrNumber3 = [11, 22, 88, 22, 99, 88];
+const maxOutput = arrNumber3.reduce((pre,cur)=> {
+    return pre > cur ? pre : cur;
+})
+console.log("Using reduce method making simple, Max number from an array: ",maxOutput);
 
 
-// second way of getting max
+
+
+// second way of getting min
 const arrNumber2 = [11, 22, 88, 22, 99, 88];
 const minFunction = (array) => {
     return array.reduce((previousValue, currentValue) => {
@@ -31,4 +39,5 @@ const minFunction = (array) => {
     })
 }
 console.log('Using reduce method Min number from an array: ', minFunction(arrNumber2));
+
 
