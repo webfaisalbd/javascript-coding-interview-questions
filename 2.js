@@ -41,3 +41,14 @@ const minFunction = (array) => {
 console.log('Using reduce method Min number from an array: ', minFunction(arrNumber2));
 
 
+
+
+// third way of getting min
+const arrNumber4 = [11, 22, 88, 22, 99, 88];
+const minOutput = arrNumber4.reduce((pre,cur)=> {
+    return pre < cur ? pre : cur;
+})
+console.log("Using reduce method making simple, Min number from an array: ",minOutput);
+
+
+
