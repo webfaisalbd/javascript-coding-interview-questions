@@ -24,5 +24,53 @@ console.log('Min number from an array: ',minNumber);
 
 
 ```javascript
+// second way of getting max
+const arrNumber = [11, 22, 88, 22, 99, 88];
+const maxFunction = (array) => {
+    return array.reduce((previousValue, currentValue) => {
+        return previousValue > currentValue ? previousValue : currentValue;
+    })
+}
+console.log('Using reduce method Max number from an array: ', maxFunction(arrNumber));
+
+```
+
+
+```javascript
+// second way of getting min
+const arrNumber2 = [11, 22, 88, 22, 99, 88];
+const minFunction = (array) => {
+    return array.reduce((previousValue, currentValue) => {
+        return previousValue < currentValue ? previousValue : currentValue;
+    })
+}
+console.log('Using reduce method Min number from an array: ', minFunction(arrNumber2));
+```
+
+
+```javascript
+// third way of getting max
+const arrNumber3 = [11, 22, 88, 22, 99, 88];
+const maxOutput = arrNumber3.reduce((pre,cur)=> {
+    return pre > cur ? pre : cur;
+})
+console.log("Using reduce method making simple, Max number from an array: ",maxOutput);
+
+```
+
+
+```javascript
+// third way of getting min
+const arrNumber4 = [11, 22, 88, 22, 99, 88];
+const minOutput = arrNumber4.reduce((pre,cur)=> {
+    return pre < cur ? pre : cur;
+})
+console.log("Using reduce method making simple, Min number from an array: ",minOutput);
+
+
+```
+
+
+```javascript
 
 ```
