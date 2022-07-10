@@ -79,5 +79,20 @@ console.log("Using reduce method making simple, Min number from an array: ",minO
 
 #### 7. How To find even or odd numbers in a given array in javascript
 ```javascript
+// 7. How To find even or odd numbers in a given array in javascript 
+const numbers = [1, 2, 3, 8, 9, 12, 16];
+const even = numbers.filter((item) => {
+    return item % 2 == 0;
+})
+const odd = numbers.filter((item) => {
+    return item % 2 ==! 0;
+})
+console.log("Even numbers: ",even);
+console.log("Odd numbers: ",odd);
+```
+
+
+#### 
+```javascript
 
 ```
