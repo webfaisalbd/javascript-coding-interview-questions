@@ -71,6 +71,13 @@ console.log("Using reduce method making simple, Min number from an array: ",minO
 ```
 
 
+#### 4. How To find second largest value and remove first largest value in a given array in javascript
+```javascript
+
+```
+
+
+#### 7. How To find even or odd numbers in a given array in javascript
 ```javascript
 
 ```
