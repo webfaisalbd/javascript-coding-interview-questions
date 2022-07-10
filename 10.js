@@ -1,0 +1,1 @@
+// 10. How To ............. in javascript 
