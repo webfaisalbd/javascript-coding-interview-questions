@@ -165,6 +165,12 @@ console.log('Number of vowel is '+countVowel(string)+ ' in '+string);
 ```
 
 
+#### 12. How To reverse a string in javascript
+```javascript
+
+```
+
+
 #### 11. How To find numbers of vowel string in javascript
 ```javascript
 
