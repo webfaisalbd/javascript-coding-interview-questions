@@ -251,7 +251,20 @@ console.log('Sorted Array2, Descending order : ', sortedArray2);
 ```
 
 
-#### 15. How To marged two arrays in javascript
+#### 16. How To find factor of a integer in javascript
+```javascript
+// 16. How To find factor of a integer in javascript 
+const num = 27;
+console.log("Factor of " + num + ' is : ');
+for (let i = 0; i <= num; i++) {
+    if (num % i == 0) {
+        console.log(i);
+    }
+}
+```
+
+
+#### 16. How To find factor of a integer in javascript
 ```javascript
 
 ```
