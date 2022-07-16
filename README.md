@@ -230,6 +230,11 @@ const margedArray = arr1.concat(arr2);
 console.log("First array : ",arr1);
 console.log("Second array : ",arr2);
 console.log("Marged array : ",margedArray);
+
+const sortedArray = margedArray.sort(function (a, b) {
+    return a - b;
+})
+console.log('Sorted Array : ',sortedArray);
 ```
 
 
