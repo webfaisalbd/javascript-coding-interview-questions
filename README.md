@@ -220,7 +220,20 @@ console.log(`Swap array : A is ${a} and B is ${b}`);
 ```
 
 
-#### 14. How To swap two variable without using the third variable in javascript
+#### 15. How To marged two arrays in javascript
+```javascript
+// 15. How To marged two arrays in javascript 
+const arr1 = ['1','5','2','34'];
+const arr2 = ['12','35','12','134'];
+// concat 
+const margedArray = arr1.concat(arr2);
+console.log("First array : ",arr1);
+console.log("Second array : ",arr2);
+console.log("Marged array : ",margedArray);
+```
+
+
+#### 15. How To marged two arrays in javascript
 ```javascript
 
 ```
