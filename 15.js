@@ -7,7 +7,19 @@ console.log("First array : ", arr1);
 console.log("Second array : ", arr2);
 console.log("Marged array : ", margedArray);
 
+// sort 
+// ascending order, small to large
 const sortedArray = margedArray.sort(function (a, b) {
     return a - b;
 })
-console.log('Sorted Array : ',sortedArray);
+console.log('Sorted Array, Ascending order : ', sortedArray);
+
+// marged array using spread operator 
+const margedUsingSpread = [...arr1, ...arr2];
+console.log("marged Using Spread Operator : ", margedUsingSpread);
+
+// ascending order, large to small
+const sortedArray2 = margedArray.sort(function (a, b) {
+    return b - a;
+})
+console.log('Sorted Array2, Descending order : ', sortedArray2);
