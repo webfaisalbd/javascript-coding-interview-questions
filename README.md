@@ -264,7 +264,34 @@ for (let i = 0; i <= num; i++) {
 ```
 
 
-#### 16. How To find factor of a integer in javascript
+#### 17. How To make a simple calculator in javascript
+##### 17.html file
+```javascript
+<script>
+const num1 = parseFloat(prompt("Enter num 1"));
+const operator = (prompt("Select Operator either + - * /"));
+const num2 = parseFloat(prompt("Enter num 2"));
+let result;
+if(operator == '+'){
+       result = num1 + num2;
+}
+else if(operator == '-'){
+       result = num1 - num2;
+}
+else if(operator == '*'){
+       result = num1 * num2;
+}
+else {
+       result = (num1 / num2).toFixed(2);
+}
+
+console.log(`${num1} ${operator} ${num2} = ${result}`);
+
+</script>
+```
+
+
+#### 18. How To make a simple calculator in javascript
 ```javascript
 
 ```
