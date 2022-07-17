@@ -291,7 +291,13 @@ console.log(`${num1} ${operator} ${num2} = ${result}`);
 ```
 
 
-#### 18. How To make a simple calculator in javascript
+#### 18. How To compare two arrays are equal or not in javascript
+```javascript
+
+```
+
+
+#### 18. How To compare two arrays are equal or not in javascript
 ```javascript
 
 ```
