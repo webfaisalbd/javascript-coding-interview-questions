@@ -297,7 +297,13 @@ console.log(`${num1} ${operator} ${num2} = ${result}`);
 ```
 
 
-#### 18. How To compare two arrays are equal or not in javascript
+#### 19. How To find intersection of two arrays in javascript
+```javascript
+
+```
+
+
+#### 20. How To find union of two arrays in javascript
 ```javascript
 
 ```
