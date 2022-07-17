@@ -1,3 +1,4 @@
+// 19. How To find intersection of two arrays in javascript
 const arr1 = [2, 9, 6, 8, 4, 4, 4];
 const arr2 = [4, 8, 6, 9, 12];
 
