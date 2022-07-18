@@ -368,6 +368,20 @@ console.log(firstLetterUpper(string));
 ```
 
 
+#### 24. How to find fibonacci sequence in javascript
+```javascript
+// 24. How to find fibonacci sequence in javascript 
+let a = 0;
+let b = 1;
+for (let index = 0; index < 10; index++) {
+    let temp = a + b;
+    a = b;
+    b = temp;
+    console.log(temp);
+}
+```
+
+
 #### 23. How to convert first letter of string in uppercase in javascript
 ```javascript
 
