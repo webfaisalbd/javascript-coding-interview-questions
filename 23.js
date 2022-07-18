@@ -2,6 +2,10 @@
 const string = 'i love you';
 const firstLetterUpper = (string) => {
     var newString = string.split(' ');
-     console.log(newString);
+    var firstLetter = newString.map((value)=>{
+        return value.charAt(0);
+    })
+     
+    return firstLetter;
 }
 console.log(firstLetterUpper(string));
