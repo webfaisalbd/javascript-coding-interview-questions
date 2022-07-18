@@ -3,7 +3,7 @@ const string = 'i love you';
 const firstLetterUpper = (string) => {
     var newString = string.split(' ');
     var firstLetter = newString.map((value)=>{
-        return value.charAt(0);
+        return value.charAt(0).toUpperCase();
     })
      
     return firstLetter;
