@@ -382,6 +382,42 @@ for (let index = 0; index < 10; index++) {
 ```
 
 
+
+#### 25. How to print LEFT TRIANGLE pattern, RIGHT TRIANGLE pattern, PYRAMID pattern and DIAMOND SHAPE pattern in javascript
+`LEFT TRIANGLE pattern`
+<p align='center'>
+  <img src="./images/leftTriangle.PNG" width="500" title="LEFT TRIANGLE pattern">
+</p>
+
+```javascript
+// 25. How to print LEFT TRIANGLE pattern, RIGHT TRIANGLE pattern, PYRAMID pattern and DIAMOND SHAPE pattern in javascript 
+
+// LEFT TRIANGLE pattern
+let string = '';
+for (let i = 1; i < 6; i++) {
+    for (let j = 1; j <= i; j++) {
+        string += "*";
+    }
+    string += '\n';
+}
+console.log(string);
+```
+
+`RIGHT TRIANGLE pattern`
+```javascript
+
+```
+
+`PYRAMID pattern`
+```javascript
+
+```
+
+`DIAMOND SHAPE pattern`
+```javascript
+
+```
+
 #### 26. How to Check the No of Occurrence of Character in String in javascript/ count specific input letter in string.
 ```javascript
 // 26. How to Check the No of Occurrence of Character in String in javascript/ count specific input letter in string. 
@@ -396,12 +432,6 @@ for (let index = 0; index < string.length; index++) {
 console.log(`In ${string} occurence of ${letter} is ${count}`);
 ```
 
-
-
-#### 26. How to convert first letter of string in uppercase in javascript
-```javascript
-
-```
 
 
 
