@@ -9,3 +9,7 @@ for (let i = 1; i < 6; i++) {
     string += '\n';
 }
 console.log(string);
+
+
+// RIGHT TRIANGLE pattern
+
